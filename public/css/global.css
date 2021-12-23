@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #FFC7C7;
+    --light-pink: #FFE2E2;
+    --white: #fdeedf;
+    --dark-grey: #8785A2;
+}

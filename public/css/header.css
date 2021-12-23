@@ -1,0 +1,18 @@
+body{
+    background-color: var(--white)
+}
+
+.headerContainer {
+    height: 15vh;
+    background-color: var(--light-pink);
+    color: var(--dark-grey);
+    /* align text to center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorChange{
+    height: 50px;
+    background: linear-gradient(#FFE2E2,#fdeedf);
+}

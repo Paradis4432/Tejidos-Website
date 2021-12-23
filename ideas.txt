@@ -1,0 +1,1 @@
+make header/Productos redirect to another endpoint with a list of all products like https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
