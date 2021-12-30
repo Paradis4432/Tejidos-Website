@@ -5,8 +5,13 @@
 }
 
 :root {
-    --pink: #FFC7C7;
-    --light-pink: #FFE2E2;
-    --white: #fdeedf;
-    --dark-grey: #8785A2;
+    --focusedText: #e6e5df;
+    --normalText: grey;
+    --bgColor: #f5f3f2;
+    --mainDisplayColor: #ffe9e3;
+    --secondMainDisplayColor: #a3c7bd;
+    --bgSecondMainDisplayColor: #d4e4e0;
+    --bgHeader: #242323;
+
+
 }

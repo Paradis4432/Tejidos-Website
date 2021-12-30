@@ -17,16 +17,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
 
+    <%- include("partials/navbar.ejs") %>
 </head>
 
-<body style="background-image: linear-gradient(var(--pink), var(--white)); height: 1500px;">
+<body style="background-image: white; height: 4000px;">
     <main>
         <%- include("partials/header.ejs") %>
+        <%- include("partials/mainDisplay.ejs") %>
     </main>
 
 </body>
 
 </html>
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -38,7 +42,15 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 <!-- NOTES:
     todo:
         add a loading gif and animate loading of items
+
+    $("#BUTTONID").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#DIVID").offset().top
+        }, TIME = 1000 ish);
+    });
 -->
