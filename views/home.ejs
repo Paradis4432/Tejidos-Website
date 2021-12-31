@@ -20,12 +20,13 @@
     <%- include("partials/navbar.ejs") %>
 </head>
 
-<body style="background-image: white; height: 4000px;">
+<body style="background-image: var(--bgColor)">
+    <%- include("partials/header.ejs") %>
     <main>
-        <%- include("partials/header.ejs") %>
         <%- include("partials/mainDisplay.ejs") %>
+        <%- include("partials/masNuevo.ejs") %>
     </main>
-
+    <%- include("partials/footer.ejs") %>
 </body>
 
 </html>

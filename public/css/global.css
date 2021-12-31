@@ -7,11 +7,12 @@
 :root {
     --focusedText: #e6e5df;
     --normalText: grey;
+    --darkText: #2b2b2b;
     --bgColor: #f5f3f2;
     --mainDisplayColor: #ffe9e3;
     --secondMainDisplayColor: #a3c7bd;
     --bgSecondMainDisplayColor: #d4e4e0;
     --bgHeader: #242323;
-
-
+    --bgBtnColor: #a8c4bc;
+    --bgFooterColor: #242323;
 }
